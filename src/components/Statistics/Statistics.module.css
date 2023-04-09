@@ -1,0 +1,41 @@
+.statistics {
+  background-color: rgba(62, 56, 56, 0.502);
+  min-width: 400px;
+  text-align: center;
+}
+.title {
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 30px;
+}
+.statList {
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(205, 220, 205);
+  border: 1px solid #000;
+  font-size: small;
+  gap: 10px;
+  width: 100%;
+}
+.id-1 {
+  background-color: rgb(205, 50, 50);
+}
+.id-2 {
+  background-color: pink;
+}
+.id-3 {
+  background-color: rgb(192, 255, 209);
+}
+.id-4 {
+  background-color: rgb(204, 192, 255);
+}
+.id-5 {
+  background-color: rgb(245, 255, 192);
+}
